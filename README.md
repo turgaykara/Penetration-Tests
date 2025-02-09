@@ -1,2 +1,3 @@
 # Penetration-Tests
-Bazı metotlar ve çeşitli toolların kullanımı.
+tr: Bazı metotlar ve çeşitli toolların kullanımı.
+en: Some methods and use of different tools.
