@@ -1,0 +1,5 @@
+Commix
+-> Purpose: Komut enjeksiyonu açıklarını tespit ve istismar etmek için kullanılan bir güvenlik test aracıdır.
+
+-> Usage  : commix --url="http://10.0.2.4/bWAPP/commandi.php" --cookie="security_level=0; PHPSESSID=568f083f24f9332a0ccfc16931728009" --data="target=www.nsa.gov&form=submit"
+	    *parametreleri Burpsuit üzerindeki POST metotlarindan aldik.

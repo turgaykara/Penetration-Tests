@@ -1,0 +1,4 @@
+Dirbuster
+-> Purpose: Sık kullanılan klasör isimleri bulunan .txt dosyasini siteye karşı çalıştırır.
+
+-> Usage  : open Dirbuster. usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt > Start.

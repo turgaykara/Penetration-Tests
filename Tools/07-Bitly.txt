@@ -1,0 +1,2 @@
+Bitly.com
+-> Purpose: URL kısaltma servisi. Kötü amaçlı URL'leri gizlemek veya kısaltmak amacıyla kullanılır.

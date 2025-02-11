@@ -1,0 +1,4 @@
+Hashcat
+-> Purpose: Hashli şifreleri çözmek için kullanılır.
+
+-> Usage  : hashcat -m 0 md5.txt /home/kali/Downloads/hash/rockyou.txt

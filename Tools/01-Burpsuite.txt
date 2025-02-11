@@ -1,0 +1,6 @@
+Burpsuit
+-> Purpose: Web uygulamalarındaki güvenlik açıklarını analiz etmek ve test etmek.
+	    HTTP istek ve yanıtlarını inceleyerek, manuel ve otomatik saldırılar
+	    gerçekleştirmeye yardımcı olur.
+
+Hint:       Intercept on iken BurpProxy'yi aktif etmelisin.
