@@ -1,0 +1,4 @@
+4-ZERO-3
+-> Purpose: 403 Forbidden error ByPass
+
+-> Usage  : bash 403-bypass.sh -u https://sklokyuk.edu.hk/en/index.php --exploit
