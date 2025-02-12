@@ -1,0 +1,3 @@
+Nikto
+Purpose: Web sunucularındaki güvenlik açıklarını tarar. Zafiyetli dosyaları, yanlış yapılandırmaları tespit eder.
+Usage  : nikto -h http://localhost:3000/#/score-board

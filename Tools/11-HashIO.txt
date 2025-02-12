@@ -1,0 +1,3 @@
+HASH IO
+Purpose: Encrypt edilmis sifrelerin hangi turde encrypt edildigini gosterir.
+Usage  : Terminal > hash-identifier > <token>
